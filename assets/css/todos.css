@@ -43,6 +43,22 @@ li:nth-child(2n){
     background-color: rgb(102, 102, 102);
     color: #f7f7f7;
 }
+span {
+    background-color: rgb(102, 102, 102);
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0;
+    transition: 0.2s linear;
+    display: inline-block;
+    opacity: 0;
+}
+li:hover span {
+    width: 40px;
+    border: 1px solid #000;
+    opacity: 1.0;
+}
 input{
     font-size: 18px;
     background-color: #4216a8;
